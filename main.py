@@ -19,3 +19,6 @@ while(True):
         continue
     elif(loop == 'n'):
         exit()
+    else:
+        print('На русском написанно y или n, давай пока')
+        exit()
