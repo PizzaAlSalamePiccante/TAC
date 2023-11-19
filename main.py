@@ -8,7 +8,7 @@ while(True):
 
     # Считаем периметр, на глаз измеряем площадь
     perimeter = (firstAngle + secondAngle + thirdAngle) / 2
-    areaT =(perimeter*(perimeter-firstAngle)*(perimeter-secondAngle)*(perimeter-thirdAngle)) ** 0.5
+    areaT = (perimeter*(perimeter-firstAngle)*(perimeter-secondAngle)*(perimeter-thirdAngle)) ** 0.5
 
     #Выводим площадь
     print('Площадь штуки с 3мя сторонами = %0.2f' %areaT)
